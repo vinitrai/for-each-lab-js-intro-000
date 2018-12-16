@@ -8,3 +8,6 @@ function iterate(callback){
   cities.forEach(callback);
   return cities;
 }
+function doToArray(array,callback){
+  array.forEach(callback);
+}
